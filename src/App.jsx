@@ -8,6 +8,7 @@ import Works from "./components/Works";
 import { HoverEffect } from "./components/Projects";
 import TextAnimation from "./Textanimation";
 import Skilllearn from "./components/Skilllearn";
+import Videocomponent from "./components/Videocomponent";
 // import HeroSection from "./components/HeroSection";
 
 
@@ -24,6 +25,7 @@ function App() {
 
       <Works />
       <Contact />
+      <Videocomponent/>
     </div>
   );
 }
