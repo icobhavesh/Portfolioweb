@@ -3,29 +3,19 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
-import Skills from "./components/Skills";
-import Works from "./components/Works";
-import { HoverEffect } from "./components/Projects";
-import TextAnimation from "./Textanimation";
-import Skilllearn from "./components/Skilllearn";
+import Skill from "./components/SkillSection";
 import Videocomponent from "./components/Videocomponent";
-// import HeroSection from "./components/HeroSection";
 
 
 function App() {
   return (
     <div>
-      {/* <TextAnimation /> */}
       <Navbar />
       <Home />
       <About />
-      <Skilllearn/>
-      {/* <Skills /> */}
-      {/* <HoverEffect /> */}
-
-      <Works />
+      <Skill />
+      <Videocomponent />
       <Contact />
-      <Videocomponent/>
     </div>
   );
 }

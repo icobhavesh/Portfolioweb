@@ -4,8 +4,7 @@ import {
     FaTimes,
     FaGithub,
     FaLinkedin,
-    FaFacebook,
-    FaLinkedinIn,
+    
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
@@ -18,7 +17,7 @@ const Navbar = () => {
     return (
         <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
             <div>
-                <h1 className=' font-thin text-2xl italic font-serif'>TB</h1>
+                <h1 className=' font-thin text-2xl italic font-serif'>BS</h1>
             </div>
             {/* menu */}
             <ul className='hidden md:flex gap-x-8'>
@@ -33,8 +32,8 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link to='skills' smooth={true} duration={500}>
-                        Skills
+                    <Link to='Skill' smooth={true} duration={500}>
+                        SkillSection
                     </Link>
                 </li>
                 <li>
@@ -73,7 +72,7 @@ const Navbar = () => {
                 </li>
                 <li className='py-6 text-4xl'>
                     {' '}
-                    <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
+                    <Link onClick={handleClick} to='SkillSection' smooth={true} duration={500}>
                         Skills
                     </Link>
                 </li>
@@ -96,7 +95,7 @@ const Navbar = () => {
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
                         <a
                             className='flex justify-between items-center w-full text-gray-300'
-                            href='/'
+                            href="https://www.linkedin.com/in/bhavesh-saxena-a6a7a3276/"
                         >
                             Linkedin <FaLinkedin size={30} />
                         </a>
@@ -104,7 +103,7 @@ const Navbar = () => {
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
                         <a
                             className='flex justify-between items-center w-full text-gray-300'
-                            href='/'
+                            href="https://github.com/icobhavesh"
                         >
                             Github <FaGithub size={30} />
                         </a>
