@@ -3,9 +3,8 @@ import video from "../assets/Vite + React - Google Chrome 2023-11-07 21-09-11.mp
 const Videocomponent = () => {
   return (
     <div className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
-      <h1>video component</h1>
       <div  className='max-w-[1000px]  h-screen mx-auto p-4 flex flex-col justify-center  w-full h-full'>
-      <h2>Video Player</h2>
+       <h1 className='text-white  text-center mb-10 text-4xl'>MY PROJECTS</h1>
       <div className='md:flex    gap-12 shadow-2xl  shadow-blue-200 '>
 
       <video controls width="500" height="400" className='p-4'  >
