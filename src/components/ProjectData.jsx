@@ -1,6 +1,6 @@
 const ProjectData = [
     {
-        video: "src/assets/shopping-app.mp4",
+        video: "src/assets/Shopping-app.mp4",
         Name:"Shopping-Website",
         Description:
             "This is a shopping app where I utilized React-Redux-Toolkit and React Router DOM. I implemented features such as add to cart and checkout functionality.",
