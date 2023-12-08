@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
-// import me from '../assets/me.png.png';
+// import me from 'public/assets/me.png.png';
 import logo from "../assets/portfolio logo.svg"
 import { Link } from "react-scroll";
 import { motion } from "framer-motion"
