@@ -30,9 +30,9 @@ const Skill = () => {
                                     initial={{ opacity: 0, scale: 0 }}
                                     animate={inView ? { opacity: 1, scale: 1 } : {}}
                                     transition={{ duration: 0.3, delay: inView ? idx * 0.3 : 0 }}
-                                    className='w-full sm:w-auto sm:flex-1 mx-2 mb-4'
+                                    className='w-full sm:w-auto bg-[#01102974] sm:flex-1 mx-2 mb-4'
                                 >
-                                    <div className='shadow-md shadow-[#040c16] hover:scale-110 p-4'>
+                                    <div className='shadow-md shadow-[#264060] hover:scale-110 p-4'>
                                         <span className='text-white text-center'>{product.name}</span>
                                     </div>
                                 </motion.div>
