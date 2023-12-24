@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import ProjectData from './ProjectData'
 // import video from "/src/assets/Bitcoin.mp4"
 const Videocomponent = () => {
-  const [data, setData] = useState(ProjectData)
+  const [data] = useState(ProjectData)
 
   return (
     <div className='w-full  h-auto  text-gray-300 bg-[#0a192f] pt-32'>
