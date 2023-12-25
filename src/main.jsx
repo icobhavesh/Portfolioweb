@@ -17,8 +17,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <Motion/> */}
     {/* <Skilllearn/> */}
     <App />/
-<Bhavesh/>
-<RandomColor/>
+{/* <Bhavesh/>
+<RandomColor/> */}
     {/* <Input/> */}
     {/* <Dummy/> */}
     {/* <Projects/> */}

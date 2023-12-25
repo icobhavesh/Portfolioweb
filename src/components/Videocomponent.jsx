@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import{ useState } from 'react'
 import ProjectData from './ProjectData'
 // import video from "/src/assets/Bitcoin.mp4"
 const Videocomponent = () => {
