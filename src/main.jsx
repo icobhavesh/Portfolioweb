@@ -2,9 +2,9 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import Input from './Practice/input.jsx'
-import Bhavesh from './Practice/Bhavesh.jsx'
-import RandomColor from './Practice/RandomColor/RandomColor.jsx'
+// import Input from './Practice/input.jsx'
+// import Bhavesh from './Practice/Bhavesh.jsx'
+// import RandomColor from './Practice/RandomColor/RandomColor.jsx'
 
 
 
