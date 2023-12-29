@@ -4,7 +4,7 @@ import {
     FaTimes,
     FaGithub,
     FaLinkedin,
-    
+
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
@@ -37,8 +37,8 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link to='work' smooth={true} duration={500}>
-                        Work
+                    <Link to='projects' smooth={true} duration={500}>
+                        Project
                     </Link>
                 </li>
                 <li>
@@ -79,7 +79,8 @@ const Navbar = () => {
                 <li className='py-6 text-4xl'>
                     {' '}
                     <Link onClick={handleClick} to='work' smooth={true} duration={500}>
-                        Work
+                        Projects
+
                     </Link>
                 </li>
                 <li className='py-6 text-4xl'>

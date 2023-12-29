@@ -4,7 +4,7 @@ import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Skill from "./components/SkillSection";
-import Videocomponent from "./components/Videocomponent";
+import VideoComponent from "./components/Videocomponent";
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <Home />
       <About />
       <Skill />
-      <Videocomponent />
+      <VideoComponent />
       <Contact />
     </div>
   );

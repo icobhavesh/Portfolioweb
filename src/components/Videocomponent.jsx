@@ -1,11 +1,11 @@
-import{ useState } from 'react'
+import { useState } from 'react'
 import ProjectData from './ProjectData'
 // import video from "/src/assets/Bitcoin.mp4"
-const Videocomponent = () => {
+const VideoComponent = () => {
   const [data] = useState(ProjectData)
 
   return (
-    <div className='w-full  h-auto  text-gray-300 bg-[#0a192f] pt-32'>
+    <div name="projects" className='w-full  h-auto  text-gray-300 bg-[#0a192f] pt-32'>
       <div className='max-w-[1000px]  mx-auto p-4 flex flex-col justify-center  w-full '>
         <div className='pb-8 w-full flex justify-center items-center flex-col mt-20  md:pt-10 '>
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-cyan-500'>
@@ -34,5 +34,5 @@ Visit Website</a>
   )
 }
 
-export default Videocomponent
+export default VideoComponent
 

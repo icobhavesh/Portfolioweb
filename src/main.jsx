@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
+// import CheckboxList from './Practice/ToggleCheckbox/Toggle.jsx'
 // import Input from './Practice/input.jsx'
 // import Bhavesh from './Practice/Bhavesh.jsx'
 // import RandomColor from './Practice/RandomColor/RandomColor.jsx'
@@ -17,10 +18,12 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <Motion/> */}
     {/* <Skilllearn/> */}
     <App />/
+    {/* <CheckboxList/> */}
 {/* <Bhavesh/>
 <RandomColor/> */}
     {/* <Input/> */}
     {/* <Dummy/> */}
     {/* <Projects/> */}
+    
   </React.StrictMode>,
 )
