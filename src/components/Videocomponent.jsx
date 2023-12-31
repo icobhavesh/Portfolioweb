@@ -9,7 +9,7 @@ const VideoComponent = () => {
       <div className='max-w-[1000px]  mx-auto p-4 flex flex-col justify-center  w-full '>
         <div className='pb-8 w-full flex justify-center items-center flex-col mt-20  md:pt-10 '>
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-cyan-500'>
-            My-Projects
+            My~Projects
           </p>
           <p className='py-6 text-2xl whitespace-nowrap  font-bold'>Check out some of my most recent work</p>
         </div>
