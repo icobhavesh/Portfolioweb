@@ -9,7 +9,7 @@ const VideoComponent = () => {
       <div className='max-w-[1000px]  mx-auto p-4 flex flex-col justify-center  w-full '>
         <div className='pb-8 w-full flex justify-center items-center flex-col mt-20  md:pt-10 '>
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-cyan-500'>
-            Work
+            My-Projects
           </p>
           <p className='py-6 text-2xl whitespace-nowrap  font-bold'>Check out some of my most recent work</p>
         </div>
@@ -25,7 +25,7 @@ const VideoComponent = () => {
                 <h1 className='text-3xl text-yellow-400'>{ele.Name}</h1>
                 <p className='text-white flex-nowrap'>{ele.Description} </p>
                 <a className='b-1 p-1 mt-4  outline-none bg-purple-500 text-white' href={ele.link}>
-Visit Website</a>
+                  Visit Website</a>
               </div>
             </div>
           ))}
