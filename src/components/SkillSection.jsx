@@ -8,11 +8,11 @@ const Skill = () => {
         { name: "Html" },
         { name: "Css" },
         { name: "Javascript" },
-        { name: "Nodejs" },
-        { name: "React" },
         { name: "Tailwind css " },
-        { name: "Express.js " },
         { name: "MonogoDB" },
+        { name: "Express.js " },
+        { name: "React" },
+        { name: "Nodejs" },
 
     ];
     const [product, setProducts] = useState(products);
