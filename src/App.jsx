@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Skill from "./components/SkillSection";
 import VideoComponent from "./components/Videocomponent";
+import Contact_from from "./components/Contact_from";
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
       <About />
       <Skill />
       <VideoComponent />
-      <Contact />
+      <Contact_from/>
     </div>
   );
 }
