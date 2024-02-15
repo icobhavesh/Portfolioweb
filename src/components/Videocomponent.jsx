@@ -17,14 +17,14 @@ const VideoComponent = () => {
           data.map((ele, idx) => (
             <div key={idx} className=' box md:flex  gap-4  m-4 shadow-2xl  shadow-slate-950  '>
 
-              <video controls width="500" height="400" className='p-4   '  >
-                <source src={ele.video} type="video/mp4" />
+              <video controls  className='p-4   '  >
+                <source className='w-[500px] h-[400px]' src={ele.video} type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
               <div className=' flex-col flex justify-center items-center p-5'>
                 <h1 className='text-3xl text-yellow-400'>{ele.Name}</h1>
                 <p className='text-white flex-nowrap'>{ele.Description} </p>
-                <a className='b-1 p-1 mt-4  outline-none bg-purple-500 text-white' href={ele.link}>
+                <a className='b-1 p-1 mt-4  outline-none bg-purple-500 text-white '  href={ele.link}>
                   Visit Website</a>
               </div>
             </div>
