@@ -18,9 +18,9 @@ const Skill = () => {
     const [product, setProducts] = useState(products);
 
     return (
-        <div  name="Skill" className='w-full min-h-auto bg-[#0a192f] p-8 '>
+        <div  name="Skill" className='w-full min-h-auto bg-[#0a192f] p-8  '>
             <h1 className='text-white text-center text-4xl'>My Skills</h1>
-            <div className='max-w-[1000px] mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 p-4 pt-10'>
+            <div className='max-w-[1000px] mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 p-4 pt-5'>
                 {product.map((product, idx) => {
                     return (
                         <InView triggerOnce key={idx}>
