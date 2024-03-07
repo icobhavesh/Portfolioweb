@@ -5,7 +5,7 @@ const ProjectData = [
         Name:"Shopping-Website",
         Description:
             "This is a shopping app where I utilized React-Redux-Toolkit and React Router DOM. I implemented features such as add to cart and checkout functionality.",
-        link: 'https://https-github-com-shopping-app.vercel.app/'
+        link: 'https://shopping-3ub2jr5bm-bhavesh-s-projects.vercel.app/'
     },
     {
         video: "/projectVideos/Ytclone.MP4",
